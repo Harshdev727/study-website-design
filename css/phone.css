@@ -1,0 +1,140 @@
+/* Navigation Bar */
+#navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+#navigation #logo {
+
+    margin: 10px 0px;
+
+}
+
+#navigation ul {
+    margin: 10px 0px;
+}
+
+#navigation ul li {
+    list-style: none;
+    margin: 0px;
+}
+
+#navigation ul li a {
+    font-size: 0.8rem;
+    padding: 25px 10px;
+}
+
+#navigation ul li a:hover {
+    border-bottom: 3px solid white;
+}
+
+#navigation #contactbtn {
+    margin: 27px 0px 10px 0px;
+    padding: 5px 30px;
+    font-size: 0.8rem;
+}
+
+/* Css For Slideshow */
+
+.text {
+    font-size: 20px;
+}
+
+.slidebtn {
+    display: none;
+}
+
+/* Css For Card */
+
+.card-container {
+    flex-direction: column;
+}
+
+.card-container .card-body {
+    padding: 10px 0px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+.card-body img {
+    width: 130px;
+    height: 130px;
+}
+
+.card-body .card-text {
+    font-size: 1rem;
+}
+
+.card-body .card-btn {
+    padding: 3px 6px;
+    font-size: 12px;
+
+}
+
+/* Css For Contact.html */
+
+.contact-form form {
+    width: 90%;
+}
+
+.form-container h1 {
+    font-size: 1.8rem;
+}
+
+.contact-form form label {
+    font-size: 1.1rem;
+}
+
+.contact-form form input[type=text],
+.contact-form form input[type=email],
+.contact-form form textarea {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.contact-form form input[type=submit] {
+    font-size: 1.1rem;
+    width: 120px;
+}
+/* Footer css */
+#foot {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+#foot .row .col .social-links-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  
+  }
+
+/* about.html css */
+.about-container {
+    margin: 20px 15px;
+}
+
+.about-container h1 {
+    font-size: 1.8rem;
+}
+
+.about-container .about-section {
+    flex-direction: column;
+}
+
+.about-container .my-img img {
+    height: 170px;
+    width: 220px;
+}
+
+.about-container .aboutme {
+    font-size: 1.1rem;
+    padding: 5px;
+    text-shadow: black 2px 2px 2px;
+}
+
+/* Utiliy Classes */
+.h-primary {
+    font-size: 2rem;
+}

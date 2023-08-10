@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This is Blog for Web Developers</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:980px)" href="css/phone.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+    
+  </script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <div id="header"></div>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with caption text -->
+    <div class="mySlides fade">
+      <img src="./img/image3.jpg" style="width:100%">
+      <div id="slidebutton">
+        <button class="slidebtn" id="slidebtn1">Practice</button>
+        <button class="slidebtn" id="slidebtn2">Example</button>
+      </div>
+      <div class="text">First Learn Then Remove L from it</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="./img/image1.jpg" style="width:100%">
+      <div id="slidebutton">
+        <button class="slidebtn" id="slidebtn1">Practice</button>
+        <button class="slidebtn" id="slidebtn2">Example</button>
+      </div>
+      <div class="text">This Site Made For Developers</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="./img/image4.jpg" style="width:100%">
+      <div id="slidebutton">
+        <button class="slidebtn" id="slidebtn1">Practice</button>
+        <button class="slidebtn" id="slidebtn2">Example</button>
+      </div>
+      <div class="text">HTML, CSS, JavaScript</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <!-- Card container -->
+  <h1 class="h-primary">Lets Learn</h1>
+  <div class="card-container">
+    <div class="card-body">
+      <img src="./img/html-5.png" alt="" srcset="">
+      <div class="card-text">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quisquam impedit amet distinctio saepe,
+          nesciunt culpa iure tempora ipsum eaque neque autem in unde, temporibus velit eius voluptates
+        </p>
+        <button class="card-btn">read more</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <img src="./img/css3.png" alt="" srcset="">
+      <div class="card-text">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quisquam impedit amet distinctio saepe,
+          nesciunt culpa iure tempora ipsum eaque neque autem in unde, temporibus velit eius voluptates
+        </p>
+        <button class="card-btn">read more</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <img src="./img/js.png" alt="" srcset="">
+      <div class="card-text">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quisquam impedit amet distinctio saepe,
+          nesciunt culpa iure tempora ipsum eaque neque autem in unde, temporibus velit eius voluptates
+        </p>
+        <button class="card-btn">read more</button>
+      </div>
+    </div>
+  </div>
+  <!-- footer section -->
+  <div id="footer"></div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
